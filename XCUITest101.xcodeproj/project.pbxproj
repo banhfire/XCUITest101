@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79245435239837B300844C04 /* XCUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79245434239837B300844C04 /* XCUITestBase.swift */; };
+		7924543723983A9700844C04 /* WelcomeStepDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7924543623983A9700844C04 /* WelcomeStepDefinitions.swift */; };
 		9BB9D54821598A7D00B95B51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB9D54721598A7D00B95B51 /* AppDelegate.swift */; };
 		9BB9D54A21598A7D00B95B51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB9D54921598A7D00B95B51 /* ViewController.swift */; };
 		9BB9D54D21598A7D00B95B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB9D54B21598A7D00B95B51 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79245434239837B300844C04 /* XCUITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestBase.swift; sourceTree = "<group>"; };
+		7924543623983A9700844C04 /* WelcomeStepDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeStepDefinitions.swift; sourceTree = "<group>"; };
 		9BB9D54421598A7D00B95B51 /* XCUITest101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCUITest101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB9D54721598A7D00B95B51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BB9D54921598A7D00B95B51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				9BB9D55F21598AF700B95B51 /* XCUITest101UITests.swift */,
+				7924543623983A9700844C04 /* WelcomeStepDefinitions.swift */,
+				79245434239837B300844C04 /* XCUITestBase.swift */,
 				9BB9D56121598AF700B95B51 /* Info.plist */,
 			);
 			path = XCUITest101UITests;
@@ -207,6 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB9D56021598AF700B95B51 /* XCUITest101UITests.swift in Sources */,
+				7924543723983A9700844C04 /* WelcomeStepDefinitions.swift in Sources */,
+				79245435239837B300844C04 /* XCUITestBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

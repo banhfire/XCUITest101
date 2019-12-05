@@ -8,29 +8,15 @@
 
 import XCTest
 
-class XCUITest101UITests: XCTestCase {
-        
-    override func setUp() {
-        super.setUp()
-        continueAfterFailure = false
-        XCUIApplication().launch()
-    }
-    
-    override func tearDown() {
-        super.tearDown()
-    }
-    
-    func testRecorded() {
-        let app = XCUIApplication()
-        app.otherElements.containing(.image, identifier:"wall1").element.tap()
-        app.buttons["enter"].tap()
-        app.staticTexts["Welcome to XCUITest"].tap()
-    }
-    
-    func testRefactored() {
-        let app = XCUIApplication()
+class XCUITest101UITests: XCUITestBase {
+    func testWelcomeMessage() {
         app.buttons["enter"].tap()
         XCTAssert(app.staticTexts["Welcome to XCUITest"].exists)
     }
     
+	func testWelcomeMessageInBDDStyle() {
+			  givenILaunchedAnApp()
+			  whenITapOnEnter()
+			  thenIShouldSeeWelcomeMessage()
+	}
 }

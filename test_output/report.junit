@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='XCUITest101UITests.xctest' tests='2' failures='0'>
+  <testsuite name='XCUITest101UITests.XCUITest101UITests' tests='2' failures='0'>
+    <testcase classname='XCUITest101UITests.XCUITest101UITests' name='testWelcomeMessage' time='4.407'/>
+    <testcase classname='XCUITest101UITests.XCUITest101UITests' name='testWelcomeMessageInBDDStyle' time='6.522'/>
+  </testsuite>
+</testsuites>
